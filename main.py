@@ -1,3 +1,7 @@
+# K-Nearest-Neighbors classfier
+# Home-made by CorentinTh
+# https://github.com/CorentinTh/ML-MyKNearestNeighbors
+
 import time
 start_time = time.time()
 
