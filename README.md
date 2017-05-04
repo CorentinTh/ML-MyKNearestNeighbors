@@ -23,12 +23,19 @@ from MyKNN import *
 classifier = MyKNN()
 
 # You can change the value of k by this
-my_classifier.k = 5
+classifier.k = 5
 ```
 Then, train it.
 ```python
 # x_train is an array of features (like [[1, 2], [5, 9], [6, 8], [2, 3]])
 # y_train is an array of labels   (like [  'a' ,  'b'  ,  'b'  ,  'a'  ])
 # Labels index must match the corresponding feature index
-my_classifier.train(x_train, y_train)
+classifier.train(x_train, y_train)
+```
+And now, you can predict some output.
+```python
+# x_test is an array you want to get the label (like [[6, 8], [0, 2]])
+predictions = classifier.predict(x_test)
+print(predictions)
+# Display : ['b', 'a']
 ```
