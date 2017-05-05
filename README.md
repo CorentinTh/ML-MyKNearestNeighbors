@@ -34,7 +34,7 @@ classifier.train(x_train, y_train)
 ```
 And now, you can predict some output.
 ```python
-# x_test is an array you want to get the label (like [[6, 8], [0, 2]])
+# x_test is an array of features you want to get the label (like [[6, 8], [0, 2]])
 predictions = classifier.predict(x_test)
 print(predictions)
 # Display : ['b', 'a']
