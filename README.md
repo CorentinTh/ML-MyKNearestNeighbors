@@ -17,7 +17,7 @@ You can run this script in terminal with this command line :
 python main.py
 ```
 ## Use the classifier
-First create the classifier.s
+First create the classifier.
 ```python
 from MyKNN import *
 classifier = MyKNN()
